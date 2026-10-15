@@ -4,21 +4,21 @@ class BunnycdnMcp < Formula
   version "0.1.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/JeffersonCN/bunnycdn-mcp/releases/download/v0.1.0/bunnycdn-mcp-aarch64-apple-darwin.tar.xz"
+      url "https://github.com/JeffersonCN/bunnycdn-mcp-server/releases/download/v0.1.0/bunnycdn-mcp-aarch64-apple-darwin.tar.xz"
       sha256 "6eababa144046ccdad6a6939e9073c038325e6297316c1f9e1d8559b654d600e"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/JeffersonCN/bunnycdn-mcp/releases/download/v0.1.0/bunnycdn-mcp-x86_64-apple-darwin.tar.xz"
+      url "https://github.com/JeffersonCN/bunnycdn-mcp-server/releases/download/v0.1.0/bunnycdn-mcp-x86_64-apple-darwin.tar.xz"
       sha256 "106603b83a5b4673c99e78da64a1b52b4819c29484fcf4757763a3433930e1b3"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/JeffersonCN/bunnycdn-mcp/releases/download/v0.1.0/bunnycdn-mcp-aarch64-unknown-linux-musl.tar.xz"
+      url "https://github.com/JeffersonCN/bunnycdn-mcp-server/releases/download/v0.1.0/bunnycdn-mcp-aarch64-unknown-linux-musl.tar.xz"
       sha256 "24b575b86315a36c1754393858fbd6beae31505c09c746c9bde6958663127f49"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/JeffersonCN/bunnycdn-mcp/releases/download/v0.1.0/bunnycdn-mcp-x86_64-unknown-linux-musl.tar.xz"
+      url "https://github.com/JeffersonCN/bunnycdn-mcp-server/releases/download/v0.1.0/bunnycdn-mcp-x86_64-unknown-linux-musl.tar.xz"
       sha256 "daede25691d74ea260a31c4d2bedc3b24033a7ae9f4c43831769059e1939b20e"
     end
   end
